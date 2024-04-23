@@ -1,0 +1,102 @@
+/*para el menu*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #dddede;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none; /* eliminan el subrayado */
+}
+
+header {
+    background-color: rgb(18, 18, 18);
+}
+
+header nav {
+    display: flex; /* PARA QUE TRABAJE EN UNA SOLA LINEA */
+    justify-content: space-between; 
+}
+
+.logo a img {
+    height: 50px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a {
+    color: white;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header ul li {
+    padding: 10px;
+}
+
+.menu li a:hover {
+    background-color: white;
+    padding: 5px;
+    color: black;
+    border-bottom: 3px solid #ffae00;
+    border-radius: 6px;
+}
+/*contenido*/
+.descripcion {
+    padding: 30px;
+    text-align: justify;
+}
+h2 {
+    text-align: center;
+}
+article {
+    display: flex;
+}
+section {
+    margin: 20px;
+}
+.texto {
+    text-align: center;
+}
+/*Footer*/
+footer {
+    background-color: black;
+}
+
+.cuerpo-footer {
+    margin: 0 20%;
+    color: white;
+    font-size: 20px;
+}
+
+.menu-footer {
+    display: flex;
+    
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+footer .cuerpo-footer nav ul li {
+    margin: 0 10px;
+}
+
+.cuerpo-footer nav ul li a {
+    color: white;
+}
+
+.cuerpo-footer nav ul li a:hover {
+    color: #ffae00;
+}
